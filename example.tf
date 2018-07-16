@@ -10,8 +10,3 @@ resource "aws_instance" "example" {
   availability_zone = "${var.availability_zone}"
   subnet_id = "${var.subnet_id}"
 }
-
-resource "aws_key_pair" "server_access" {
-  key_name = "Cdrw012018$$"
-  public_key = ""
-}
